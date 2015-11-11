@@ -10,7 +10,7 @@ import static org.hamcrest.CoreMatchers.*;
 public class TestChap02CharacterAndString 
 {
     @Test
-    public void _02_01_02_01()
+    public void _02_02_02_01()
     {
         String s = new String("0123456789");
         int actual = s.length();
