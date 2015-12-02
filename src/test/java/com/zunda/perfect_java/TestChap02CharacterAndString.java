@@ -16,7 +16,7 @@ public class TestChap02CharacterAndString
     {
         String s = new String("0123456789");
         int actual = s.length();
-        int expected = 10;
+        int expected = 9;
         assertThat(actual, is(expected));
     }
 
